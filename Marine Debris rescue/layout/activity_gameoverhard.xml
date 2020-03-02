@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Gameoverhard"
+    android:background="@drawable/wall2">
+    <!--android:background="@drawable/backgroundc"  -->
+
+
+    <TextView
+        android:id="@+id/mygameovertext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:layout_marginTop="10dp"
+        android:text="Game"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/mygameovertextt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:text="Over"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+
+    <TextView
+        android:id="@+id/mygameoverlevelhard"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="160dp"
+        android:text="HARD"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/scoregothard"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+    <Button
+        android:id="@+id/startagainhard"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+
+
+        android:background="@drawable/bulble"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:text="Play again"
+        android:textColor="@android:color/black"
+
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/highscoreviewhard"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="30dp"
+        android:fontFamily="casual"/>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7590533102332942/5178353410">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
