@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splashactivity"
+    android:background="@drawable/wallpapern"
+
+    >
+    <!--android:background="@draw"-->>
+
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="Marine Debris"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_light"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="25dp"
+        android:fontFamily="monospace" />
+
+
+
+
+    <Button
+        android:id="@+id/Mybuttonplay"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bulble"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        android:text="Play"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/myText2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="59dp"
+        android:text="Rescue"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+
+
+    <TextView
+        android:id="@+id/myinstruct"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:text="How to play?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="30dp"
+        android:fontFamily="cursive"/>
+
+
+    <TextView
+        android:id="@+id/howtoplay"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="200dp"
+        android:text="Tap to move the character."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="20dp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/howtoplay2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:text=" Avoid Hitting the junks! It will make the Character lose its life"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="20dp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/howtoplay3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="350dp"
+        android:text="Grab the fishes to increase the score!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="20dp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/howtoplay4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:text="Choose a level to play. It indicates the measure of difficulty."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="20dp"
+        android:fontFamily="casual"/>
+
+
+
+
+</RelativeLayout>
